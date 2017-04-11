@@ -13,6 +13,6 @@
     </form>
     <br><br><br>
     <p>--------------------------------------------</p>
-    <?php @echo($_POST['PAYLOAD']); ?>
+    <?=@$_POST['PAYLOAD']?>
   </body>
 </html>
